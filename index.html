@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Word Guess Game</title>
+    <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="./assets/css/css.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <div class="container">
         <section id="main">
             <h2>The Greatest Women of Computer Programming</h2>
             <hr />
+
+            <p>Press any key to get started! </p>
+
+            <br>
+            <br>
+
+            <h4>Wins</h4>
+            <h4 id="totalWins">Wins</h4>
+
+            <br>
+            <br>
+
+            <h4>Current Word</h4>
+            <h4 id="currentWord">Current Word</h4>
+
+            <br>
+            <br>
+
+            <h4>Guesses Remaining</h4>
+            <h4 id="remainingGuesses">Guesses Remaining</h4>
+
+            <br>
+            <br>
             
-            <p>
-               Instuctions: Guess the names of a few of the most infulential women in computer programming. 
-            </p>
+            <h4>Letters Guessed</h4>
+            <br>
+            <h4 id="guessedLetters">Letters Guessed</h4>
+
         </section>
     </div>
+
+    <script src="./assets/javascript/game.js"></script>
 </body>
+
 </html>

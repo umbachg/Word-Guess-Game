@@ -1,0 +1,39 @@
+body {
+	font-family: 'Arial', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url('../images/background_image.png');
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Georgia', 'Times New Roman', Times, serif;
+	color: #c26346;
+}
+
+.container {
+	width: 960px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+#main {
+	background-color: #ffffff;
+	trsp
+    width: 920px;
+    height: 480px;
+    padding: 20px;
+    margin: auto;
+    margin: 40px 0px;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #dddddd;
+	line-height: 35px;
+}
