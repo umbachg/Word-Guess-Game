@@ -2,6 +2,7 @@ body {
 	font-family: 'Arial', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url('../images/background_image.png');
+	background-size: cover;  
 	margin: 0;
 	padding: 0;
 }
@@ -9,13 +10,13 @@ body {
 h1 {
 	font-family: 'Georgia', 'Times New Roman', Times, serif;
 	font-size: 24px;
-	color: #ffffff;
+	color: #c26346;
 	text-align: center;
 }
 
-h2 {
+h4 {
 	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	color: #c26346;
+	color: #250e07;
 }
 
 .container {
@@ -26,9 +27,9 @@ h2 {
 
 #main {
 	background-color: #ffffff;
-	trsp
-    width: 920px;
-    height: 480px;
+	/* opacity: 0.75; */
+    width: 400px;
+    height: 600px;
     padding: 20px;
     margin: auto;
     margin: 40px 0px;
