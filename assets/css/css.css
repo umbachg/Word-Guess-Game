@@ -1,40 +1,42 @@
-body {
-	font-family: 'Arial', Helvetica, sans-serif;
-	color: #777777;
-	background-image: url('../images/background_image.png');
-	background-size: cover;  
-	margin: 0;
-	padding: 0;
-}
+body, html {
+	height: 100%;
+  }
+  
+  .bg {
+	background-image: url("../images/Basketball_edited2.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 h1 {
-	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	font-size: 24px;
-	color: #c26346;
-	text-align: center;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 80px;
+    margin-top: 10px; 
 }
 
 h4 {
-	font-family: 'Georgia', 'Times New Roman', Times, serif;
-	color: #250e07;
+    color: #bdbbbb;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
+
+p {
+    color: #bdbbbb;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;  
 }
 
 .container {
-	width: 960px;
-	min-height: 100%;
-	margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
-#main {
-	background-color: #ffffff;
-	/* opacity: 0.75; */
-    width: 400px;
-    height: 600px;
-    padding: 20px;
-    margin: auto;
-    margin: 40px 0px;
-    border-style: solid;
-    border-width: 1px;
-	border-color: #dddddd;
-	line-height: 35px;
-}
+#currentWord {
+    letter-spacing: 10px;
+} 
